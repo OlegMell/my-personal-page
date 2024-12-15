@@ -27,12 +27,16 @@ body {
 .name {
     font-size: 4rem;
     text-align: center;
-    font-weight: 500;
+    font-weight: 600;
+    filter: brightness(120%);
 }
 
 .about {
     padding-top: 5px;
     font-size: 1.8rem;
+    text-align: center;
+    color: powderblue;
+    opacity: .9;
 }
 
 .socials {
@@ -98,6 +102,7 @@ use {
     0% {
         transform: translate(-2px, 0)
     }
+
     100% {
         transform: translate(0px, 0)
     }
